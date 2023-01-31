@@ -44,11 +44,7 @@ function setModal() {
     scoreTag.setAttribute('class', 'score')
     btnTag.innerHTML = 'restart'
     btnTag.onclick = () => {
-        score = 0
-        snake[0] = {
-            x: 9 * box,
-            y: 10 * box,
-        }
+      location.btnTag()
     }
     div.append(textTag, btnTag, scoreTag)
 

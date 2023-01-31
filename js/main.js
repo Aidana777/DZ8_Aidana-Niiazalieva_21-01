@@ -45,7 +45,7 @@ function setModal() {
     btnTag.innerHTML = 'restart'
     document.addEventListener('keydown', (event) => {
         if (event.isComposing || event.keyCode === 13) {
-            document.location.reload()
+            location.restart()
         }
     })
     div.append(textTag, btnTag, scoreTag)

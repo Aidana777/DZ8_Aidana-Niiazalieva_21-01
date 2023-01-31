@@ -48,6 +48,10 @@ function setModal() {
             document.location.reload()
         }
     })
+    btnTag.onclick=()=>{
+        document.location.reload()
+    }
+
     div.append(textTag, btnTag, scoreTag)
 
     document.body.append(div)
